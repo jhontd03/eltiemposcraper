@@ -1,2 +1,2 @@
-# News Scraper ElTiempo
+# News Scraper El Tiempo
 Scraper Noticias Diario el Tiempo

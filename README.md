@@ -32,10 +32,11 @@ Clone el presente repositorio cree un entorno virtual, instale las librerias y e
 
 ```
 git clone https://github.com/jhontd03/eltiemposcraper.git
+cd eltiemposcraper
 python -m venv venv
 venv\Scripts\activate
 python -m pip install --upgrade pip
-pip install scrapy autopep8
+pip install scrapy
 cd eltiemposcraper
 scrapy crawl news
 ```

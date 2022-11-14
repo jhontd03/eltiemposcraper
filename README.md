@@ -4,15 +4,13 @@
 
 ## [Contenido](#Contenido)
 
-- [Scraper de noticias diario El Tiempo](#Scraper-de-noticias-diario-El-Tiempo)
-  - [Contenido](#Contenido)
-  - [Introducción](#Introduccón)
-  - [Instalación](#Instalación)
-  - [Requisitos](#Requisitos)
-  - [Uso](#Uso)
-  - [Estructura del repositorio](#Estructura-del-repositorio)
-  - [Resultados](#Resultados)
-  - [Autor](#Autor)
+- [Introducción](#Introduccón)
+- [Instalación](#Instalación)
+- [Requisitos](#Requisitos)
+- [Uso](#Uso)
+- [Estructura del repositorio](#Estructura-del-repositorio)
+- [Resultados](#Resultados)
+- [Autor](#Autor)
 
 ## Introducción
 

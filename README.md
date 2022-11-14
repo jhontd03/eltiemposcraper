@@ -2,11 +2,17 @@
 
 # Scraper de noticias diario El Tiempo
 
-**Tabla de Contenido**
+## [Contenido](#Contenido)
 
-[TOCM]
-
-[TOC]
+- [Scraper de noticias diario El Tiempo](#Scraper de noticias diario El Tiempo)
+  - [Contenido](#Contenido)
+  - [Introducción](#Introduccón)
+  - [Instalación](#Instalación)
+  - [Requisitos](#Requisitos)
+  - [Uso](#Uso)
+  - [Estructura del repositorio](#Estructura del repositorio)
+  - [Resultados](#Resultados)
+  - [Autor](#Autor)
 
 ## Introducción
 
@@ -31,6 +37,7 @@ git clone https://github.com/jhontd03/eltiemposcraper.git
 cd eltiemposcraper
 python -m venv venv
 venv\Scripts\activate
+python -m pip install --upgrade pip
 pip install scrapy autopep8
 scrapy crawl news
 ```
@@ -45,7 +52,7 @@ El árbol de directorios del repositorio es el siguiente:
 +---dataset
 ¦       news_eltiempo_11-11-2022.json
 ¦       
-+---News_Scraper_ElTiempo
++---eltiemposcraper
     ¦   items.py
     ¦   middlewares.py
     ¦   pipelines.py
@@ -70,7 +77,7 @@ El árbol de directorios del repositorio es el siguiente:
 
 Se obtuvo un archivo json que contiene 234 noticias correspondientes al 11 de noviembre de 2022, en las categorias: economía, política, justicia, unidad investigativa y opinión, cada noticia contiene el título, epígrafe y el cuerpo.
 
-[Ver dataset obtenido](https://github.com/jhontd03/eltiemposcraper/tree/master/dataset)
+[Ver dataset obtenido](https://github.com/serfer2/uoc-web-scraper/tree/main/src/store)
 
 ## Autor
 

@@ -46,7 +46,7 @@ scrapy crawl news
 El árbol de directorios del repositorio es el siguiente:
 ```
 .
-¦   scrapy.cfg
++---scrapy.cfg
 ¦   
 +---dataset
 ¦       news_eltiempo_11-11-2022.json

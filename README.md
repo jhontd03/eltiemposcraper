@@ -80,4 +80,5 @@ Se obtuvo un archivo json que contiene 234 noticias correspondientes al 11 de no
 ## Autor
 
 Jhon Jairo Realpe. 
+
 jrealpe0@uoc.edu

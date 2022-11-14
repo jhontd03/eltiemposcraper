@@ -75,7 +75,7 @@ El árbol de directorios del repositorio es el siguiente:
 
 Se obtuvo un archivo json que contiene 234 noticias correspondientes al 11 de noviembre de 2022, en las categorias: economía, política, justicia, unidad investigativa y opinión, cada noticia contiene el título, epígrafe y el cuerpo.
 
-[Ver dataset obtenido](https://github.com/serfer2/uoc-web-scraper/tree/main/src/store)
+[Ver dataset obtenido](https://github.com/jhontd03/eltiemposcraper/tree/master/dataset)
 
 ## Autor
 

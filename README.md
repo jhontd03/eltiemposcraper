@@ -4,33 +4,33 @@
 
 ## [Contenido](#Contenido)
 
-- [Scraper de noticias diario El Tiempo](#Scraper de noticias diario El Tiempo)
+- [Scraper de noticias diario El Tiempo](#Scraper-de-noticias-diario-El-Tiempo)
   - [Contenido](#Contenido)
-  - [Introducción](#Introduccón)
-  - [Instalación](#Instalación)
+  - [IntroducciÃ³n](#IntroduccÃ³n)
+  - [InstalaciÃ³n](#InstalaciÃ³n)
   - [Requisitos](#Requisitos)
   - [Uso](#Uso)
-  - [Estructura del repositorio](#Estructura del repositorio)
+  - [Estructura del repositorio](#Estructura-del-repositorio)
   - [Resultados](#Resultados)
   - [Autor](#Autor)
 
-## Introducción
+## IntroducciÃ³n
 
-El presente proyecto es una aplicación de la técnica de webscraping, para la obtención de noticias en el diario [El Tiempo](https://www.eltiempo.com/).
+El presente proyecto es una aplicaciÃ³n de la tÃ©cnica de webscraping, para la obtenciÃ³n de noticias en el diario [El Tiempo](https://www.eltiempo.com/).
 
-Su desarrollo se enmarca en la práctica 1 de la asignatura Tipología y ciclo de vida de datos del [Mater Universitario en Ciencia de Datos](https://estudios.uoc.edu/es/masters-universitarios/data-science/presentacion) de la Universitat Oberta de Catalunya.
+Su desarrollo se enmarca en la prÃ¡ctica 1 de la asignatura TipologÃ­a y ciclo de vida de datos del [Mater Universitario en Ciencia de Datos](https://estudios.uoc.edu/es/masters-universitarios/data-science/presentacion) de la Universitat Oberta de Catalunya.
 
-## Instalación
+## InstalaciÃ³n
 
 ## Requisitos
 
-Para la ejecución del programa es necesario instalar la version de python 3.8.x y para usuarios de windows, un emulador de la terminal de comandos similar al bash de linux 
+Para la ejecuciÃ³n del programa es necesario instalar la version de python 3.8.x y para usuarios de windows, un emulador de la terminal de comandos similar al bash de linux 
 
 Instale [python](https://www.python.org/downloads/) y [cmder](https://cmder.app/)
 
 ## Uso
 
-Clone el presente repositorio cree un entorno virtual, instale las librerias y ejecute el código Python directamente.
+Clone el presente repositorio cree un entorno virtual, instale las librerias y ejecute el cÃ³digo Python directamente.
 
 ```
 git clone https://github.com/jhontd03/eltiemposcraper.git
@@ -44,29 +44,29 @@ scrapy crawl news
 
 ## Estructura del repositorio
 
-El árbol de directorios del repositorio es el siguiente:
+El Ã¡rbol de directorios del repositorio es el siguiente:
 ```
 .
-¦   scrapy.cfg
-¦   
+Â¦   scrapy.cfg
+Â¦   
 +---dataset
-¦       news_eltiempo_11-11-2022.json
-¦       
+Â¦       news_eltiempo_11-11-2022.json
+Â¦       
 +---eltiemposcraper
-    ¦   items.py
-    ¦   middlewares.py
-    ¦   pipelines.py
-    ¦   settings.py
-    ¦   __init__.py
-    ¦   
+    Â¦   items.py
+    Â¦   middlewares.py
+    Â¦   pipelines.py
+    Â¦   settings.py
+    Â¦   __init__.py
+    Â¦   
     +---spiders
-    ¦   ¦   news.py
-    ¦   ¦   __init__.py
-    ¦   ¦   
-    ¦   +---__pycache__
-    ¦           news.cpython-38.pyc
-    ¦           __init__.cpython-38.pyc
-    ¦           
+    Â¦   Â¦   news.py
+    Â¦   Â¦   __init__.py
+    Â¦   Â¦   
+    Â¦   +---__pycache__
+    Â¦           news.cpython-38.pyc
+    Â¦           __init__.cpython-38.pyc
+    Â¦           
     +---__pycache__
             settings.cpython-38.pyc
             __init__.cpython-38.pyc
@@ -75,7 +75,7 @@ El árbol de directorios del repositorio es el siguiente:
 
 ## Resultados
 
-Se obtuvo un archivo json que contiene 234 noticias correspondientes al 11 de noviembre de 2022, en las categorias: economía, política, justicia, unidad investigativa y opinión, cada noticia contiene el título, epígrafe y el cuerpo.
+Se obtuvo un archivo json que contiene 234 noticias correspondientes al 11 de noviembre de 2022, en las categorias: economÃ­a, polÃ­tica, justicia, unidad investigativa y opiniÃ³n, cada noticia contiene el tÃ­tulo, epÃ­grafe y el cuerpo.
 
 [Ver dataset obtenido](https://github.com/serfer2/uoc-web-scraper/tree/main/src/store)
 
